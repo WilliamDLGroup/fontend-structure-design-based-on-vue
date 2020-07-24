@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" class="learfix">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/login" class="fr bcg">Login</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 

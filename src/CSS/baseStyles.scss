@@ -1,0 +1,36 @@
+
+
+
+// Mixin itself
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+// 作为 mixin 使用
+.clearfix {
+  @include clearfix;
+}
+.fr {
+  float: right;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mt-20 {
+  margin: 20px;
+}
+.border-1 {
+  border: 1px solid rgb(121, 120, 120);
+}
+.p-20{
+  padding: 20px;
+}
+.br {
+  border-radius: 5px;
+}

@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  "globals": { "_": true },
   env: {
     node: true
   },

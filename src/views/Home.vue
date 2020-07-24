@@ -1,7 +1,15 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home ">
+    <BaseIcon
+      class="block mx-auto "
+      iconName="task"
+      width="200"
+      height="200"
+    ></BaseIcon>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <BaseTailWind></BaseTailWind>
+    <BaseForm></BaseForm>
+    <BaseTailWind></BaseTailWind>
   </div>
 </template>
 
@@ -16,3 +24,8 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+</style>
