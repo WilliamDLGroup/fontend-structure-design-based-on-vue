@@ -1,4 +1,4 @@
-# vue 全家桶学习案例
+# 基于vue全家桶的前端架构设计
 
 ## vue全家桶测试demo
 ## 集成 elementUi 按需引入
