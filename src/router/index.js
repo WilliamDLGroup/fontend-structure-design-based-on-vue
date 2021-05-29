@@ -17,35 +17,17 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    path: '/news',
+    name: 'News',
+    component: () => import(/* webpackChunkName: "about" */ '../views/News.vue'),
 
-    children: [
-      {
-        path: '',
-        redirect: '/education'
 
-      },
-      {
-        path: '/education',
-        name: 'Eduction',
-        component: () => import('../views/Education.vue')
-
-      },
-      {
-        path: '/skills',
-        name: 'Skills',
-        component: () => import('../views/Skills.vue')
-      },
-      {
-        path: '/experence',
-        name: 'Experence',
-        component: () => import('../views/Experience.vue')
-      }
-    ]
-
-  }
+  },
+  {
+    path: '/education',
+    name: 'Education',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Education.vue'),
+  },
 ]
 
 const router = new VueRouter({

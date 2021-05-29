@@ -41,9 +41,5 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-@tailwind base;
 
-@tailwind components;
-
-@tailwind utilities;
 </style>

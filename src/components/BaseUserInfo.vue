@@ -15,6 +15,7 @@ export default {
     }
   },
 
+  // 使用vuex的一种场景
   computed: {
     userName: function () {
       return this.$store.state.userinfo.name

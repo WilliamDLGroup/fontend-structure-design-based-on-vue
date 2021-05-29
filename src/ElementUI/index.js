@@ -23,14 +23,24 @@ import {
   Checkbox,
   CheckboxButton,
   CheckboxGroup,
-
   Select,
   Option,
   OptionGroup,
   DatePicker,
   TimeSelect,
   TimePicker,
-  Avatar
+
+
+
+  Avatar,
+  Carousel,
+  CarouselItem,
+  Image,
+  Badge,
+  Divider,
+  Tabs,
+  TabPane,
+
 } from 'element-ui'
 
 Vue.use(Button)
@@ -61,5 +71,19 @@ Vue.use(OptionGroup)
 Vue.use(DatePicker)
 Vue.use(TimeSelect)
 Vue.use(TimePicker)
+
+
+
+
+
 Vue.use(Avatar)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(Image)
+Vue.use(Badge)
+Vue.use(Divider)
+Vue.use(Tabs)
+Vue.use(TabPane)
+
+
 Vue.prototype.$loading = Loading.service
